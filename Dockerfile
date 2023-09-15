@@ -3,9 +3,7 @@ WORKDIR /app
 COPY package*.json .
 COPY . .
 RUN npm install
+RUN export NODE_ENV=production
 RUN npm run build
-
-EXPOSE 5000
-
 # Start the Svelte a
 RUN npm run start
