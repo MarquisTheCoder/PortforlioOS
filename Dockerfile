@@ -6,4 +6,4 @@ RUN npm install
 RUN export NODE_ENV=production
 RUN npm run build
 # Start the Svelte a
-RUN npm run start
+RUN npm run start -- --host 0.0.0.0
