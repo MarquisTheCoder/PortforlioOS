@@ -3,7 +3,7 @@
 <script>
     import Window from "../Window.svelte";
     import Card from "./Card.svelte";
-    import Projects from "$lib/database/projects.json";
+    import projects from "$lib/database/projects.json";
 </script>
 
 <Window windowTitle={'Portforlio'} windowClasses={'w-[60rem] h-[40rem] bg-black/50'}>
@@ -30,6 +30,7 @@
                 <Card/> 
                 <Card/> 
                 <Card/> 
+
               </div>
           </div>
     </div>
