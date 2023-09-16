@@ -1,8 +1,10 @@
 
 <script>
     export let image = '';
+    export let name = '';
     export let description = '';
     export let link = '';
+    export let active = false;
 </script>
 
 

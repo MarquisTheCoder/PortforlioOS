@@ -1,7 +1,7 @@
 
 <script>
     import Portforlio from "$lib/components/portforlio/Portforlio.svelte";
-
+    import {Projects} from "$lib/database/projects.json";
 </script>
 
 <div

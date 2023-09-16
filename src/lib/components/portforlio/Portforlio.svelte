@@ -2,7 +2,8 @@
 
 <script>
     import Window from "../Window.svelte";
-  import Card from "./Card.svelte";
+    import Card from "./Card.svelte";
+    import Projects from "$lib/database/projects.json";
 </script>
 
 <Window windowTitle={'Portforlio'} windowClasses={'w-[60rem] h-[40rem] bg-black/50'}>
@@ -22,6 +23,7 @@
               <div class="px-20 w-full h-[10rem]
                flex flex-col md:flex-row gap-4 no-scrollbar 
                flex-wrap items-center md:justify-center">
+               
                 <Card/> 
                 <Card/> 
                 <Card/> 
