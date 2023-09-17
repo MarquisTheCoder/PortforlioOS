@@ -30,7 +30,16 @@
     /> -->
   </div>
   <Terminal />
-  
+  <script>
+    window.addEventListener('load', checkWidth);
+window.addEventListener('resize', checkWidth);
+
+function checkWidth() {
+  if (window.innerWidth < 950) {
+    window.location.href = "https://www.google.com";
+  }
+}
+  </script> 
 </div>
 
   <OsBar height={2} position={'top'}>
