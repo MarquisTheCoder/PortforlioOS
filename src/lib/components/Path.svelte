@@ -56,7 +56,7 @@
               output = [
                 "𝐡𝐞𝐥𝐩 - list out available commands.",
                 "𝐬𝐤𝐢𝐥𝐥𝐬 - shows you Marquis's skillz.",
-                "𝐩𝐨𝐫𝐭𝐟𝐨𝐫𝐥𝐢𝐨 - takes you to Marquis's portforlio.",
+                "𝐩𝐨𝐫𝐭𝐟𝐨𝐫𝐥𝐢𝐨 - takes you to Marquis's portfolio.",
                 "𝐠𝐢𝐭𝐡𝐮𝐛 - takes you to Marquis's Github profile.",
                 "𝐜𝐥𝐞𝐚𝐫 - clears terminal window"
               ];
