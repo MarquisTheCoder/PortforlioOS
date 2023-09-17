@@ -33,7 +33,7 @@
   
 </div>
 
-  <!-- <OsBar height={2} position={'top'}>
+  <OsBar height={2} position={'top'}>
   <div class="flex flex-row gap-3 items-center"> 
       <img src="/img/terminal.png" class="h-5 opacity-40 invert" alt="">
       <p class="font-bold text-[1rem] items-center font-fira text-white/40">
@@ -77,4 +77,4 @@
   <img src="/img/nix.png" class="absolute w-[40rem] top-[30%] left-[10%] z-[4] opacity-[0.4]" alt="">
   
 
-  <Draggable/> -->
+  <Draggable/>
