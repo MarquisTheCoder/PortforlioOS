@@ -1,7 +1,4 @@
-<script>
-
-
-</script>
+>
 
 <div
   class=" text-[1.6rem] flex flex-row gap-4 border-transparent focus:border-transparent focus:ring-0 relative"

@@ -5,13 +5,28 @@
     export let description = '';
     export let link = '';
     export let active = false;
+    export let stack = [];
+    import StackIcons from "./StackIcons.svelte";
 </script>
 
 
-<div class="p-6 w-[14rem] h-[15rem] rounded-lg
-border-[0.2rem] border-purple-500/50 border-dotted border-spacing-6">
-    <div class="h-[40%] w-full overflow-hidden relative">
-        <img src="{image}" alt="project_image" class="absolute top-0 left-0">
+<div class="w-[20rem] h-[20rem] rounded-lg
+border-[1px] border-purple-500/50 border-spacing-6 bg-black/60 backdrop-blur-md m-0 shrink-0">
+    <div class="h-[50%] w-full overflow-hidden relative">
+        <img src="{image}" alt="project_image" class="absolute top-0 left-0 h-full rounded-t-lg shrink-0"
+        style="height: auto; width: 150%;">
     </div>
-    <slot/>
+    <div class="py-2 w-full text-center bg-black/80">
+        <h1  class="text-[1.3rem] font-bold font-mira text-purple-400/50">{name}</h1>
+    </div>
+    <div class="h-[20%] w-full overflow-scroll bg-black/60 font-mira text-purple-200/70 px-4 text-center font-thin">
+        {description}
+    </div>
+    <div class="h-[30%] w-full">
+        <ul class="flex overflow-y-hidden overflow-x-scroll flex-row gap-4 justify-start px-3 py-1 w-full h-full">
+            {#each stack as tool}
+                <li><StackIcons name={tool}/></li>
+            {/each}
+        </ul>
+    </div>
 </div>
