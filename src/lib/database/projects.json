@@ -5,7 +5,7 @@
         "url": "none",
         "image":"/img/projects/cryptomami.png",
         "live": false,
-        "stack": ["java", "node"]
+        "stack": ["java", "spring","bootstrap", "jquery", "mysql"]
     },
     {
         "name": "Cryptomami Group",
@@ -16,34 +16,34 @@
         "stack": []
     },
     {
-        "name": "Cryptomami Group",
+        "name": "Venued",
         "description": "",
         "url": "none",
         "image":"/img/projects/venued.png",
         "live": false,
-        "stack": []
+        "stack": ["java", "spring","bootstrap", "jquery", "mysql"]
     },
     {
-        "name": "Cryptomami Group",
+        "name": "Able Log Trucking",
         "description": "",
         "url": "none",
         "image":"/img/projects/ablelogtrucking.png",
         "live": false,
-        "stack": []
+        "stack": ["java", "spring","bootstrap", "jquery"]
     },
     {
-        "name": "Cryptomami Group",
+        "name": "ExpressJS 3D Weathermap",
         "description": "",
         "url": "none",
         "image":"/img/projects/weathmap.png",
         "live": false,
-        "stack": []
+        "stack": ["node","javascript","jquery"]
     },
     {
-        "name": "Cryptomami Group",
+        "name": "Cobblestone Library",
         "description": "",
         "url": "none",
-        "image":"/img/projects/cryptomami.png",
+        "image":"/img/projects/cobblestone.jpg",
         "live": false,
         "stack": []
     }
