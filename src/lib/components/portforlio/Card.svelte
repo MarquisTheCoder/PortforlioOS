@@ -9,7 +9,6 @@
     import StackIcons from "./StackIcons.svelte";
 </script>
 
-
 <div class="w-[20rem] h-[20rem] rounded-lg bg-black/60 backdrop-blur-md m-0 shrink-0">
     <div class="h-[50%] w-full overflow-hidden relative">
         <img src="{image}" alt="project_image" class="absolute top-0 left-0 h-full rounded-t-lg shrink-0"
