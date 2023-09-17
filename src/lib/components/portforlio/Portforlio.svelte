@@ -6,7 +6,7 @@
     import projects from "$lib/database/projects.json";
 </script>
 
-<Window windowTitle={'Portforlio'} windowClasses={'portforlio w-[100vw] min-h-[40rem] h-[100vh] bg-black/70'}>
+<Window windowTitle={'Portforlio'} top={32} left={0} windowClasses={'portforlio w-[100vw] min-h-[100vh] h-[100vh] bg-black/70'}>
     <div class="flex flex-col flex-1 w-full h-full">
         <div class="w-full h-[10rem] min-h-[5rem] flex flex-col items-center justify-center 
         backdrop-blur-md bg-gradient-to-b from-black/60 to-black/40">

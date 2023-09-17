@@ -64,7 +64,7 @@
       <img src="/img/linux.svg" class="h-8 cursor-pointer" alt="">
       <img src="/img/vscode.png" class="h-10 opacity-60 cursor-pointer" alt=""> 
       <img src="/img/docker.png" class="h-8 opacity-60 cursor-pointer" alt=""> 
-      <img src="/img/discord.png" class="h-8 opacity-60 cursor-pointer" alt=""> 
+      <a href="https://discordapp.com/users/1013030681942700036" target="_blank"><img src="/img/discord.png" class="h-8 opacity-60 cursor-pointer" alt=""></a>
       <img src="/img/terminal.png" class="h-9 opacity-60 cursor-pointer" alt=""> 
    </div>
    <div class="flex flex-row items-center w-[50%]">
