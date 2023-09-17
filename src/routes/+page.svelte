@@ -36,7 +36,7 @@ window.addEventListener('resize', checkWidth);
 
 function checkWidth() {
   if (window.innerWidth < 950) {
-    window.location.href = "https://www.google.com";
+    window.location.href = "https://marquisthecoder.us/portfolio";
   }
 }
   </script> 
