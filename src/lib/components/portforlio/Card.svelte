@@ -13,7 +13,7 @@
     <div class="absolute top-5 right-5 z-20 text-white active-or-not">
         {#if active == true}
             <a href="{link}" target="_blank">
-                <p class="z-20 px-3 py-1 bg-green-500 rounded-md">Live</p>
+                <p class="z-20 px-3 py-1 bg-green-500 rounded-md animate-pulse">Live</p>
             </a>
         {:else}
             <p class="z-20 px-3 py-1 bg-red-500 rounded-md">Down</p>
@@ -24,7 +24,7 @@
         style="height: auto; width: 150%;">
     </div>
     <div class="py-2 w-full text-center bg-black/80">
-        <h1  class="text-[1.3rem] font-bold font-mira text-purple-400/50">{name}</h1>
+        <h1  class="text-[1.3rem] font-bold font-mira text-purple-400/80">{name}</h1>
     </div>
     <div class="h-[20%] w-full overflow-scroll bg-black/60 font-mira text-purple-200/70 px-4 text-center font-thin no-scrollbar">
         {description}

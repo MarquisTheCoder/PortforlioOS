@@ -26,7 +26,7 @@
     {
         "name": "Able Log Trucking",
         "description": "Website for a local veteran-owned trucking company 🚚🇺🇸. Showcasing company services and honor their dedication. #LocalBusiness #VeteranOwned",
-        "url": "none",
+        "url": "https://ablelog.onrender.com/",
         "image":"/img/projects/ablelogtrucking.png",
         "live": true,
         "stack": ["java", "spring","bootstrap", "jquery"]
@@ -42,7 +42,7 @@
     {
         "name": "Cobblestone Library",
         "description": "Built a user-friendly library website using SvelteKit, Tailwind CSS, and JavaScript, promoting freedom of information 📚🔍. Access resources easily! #LibraryWebsite #OpenAccess",
-        "url": "none",
+        "url": "https://cobblestone-library.onrender.com/",
         "image":"/img/projects/cobblestone.jpg",
         "live": true,
         "stack": ["svelte", "javascript", "tailwind"]
