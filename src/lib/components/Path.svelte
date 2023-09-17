@@ -85,10 +85,10 @@
             },
           },
           portforlio: {
-            description: "Takes you to Marquis's portforlio",
+            description: "Takes you to Marquis's portfolio",
             action: async () => {
               results.innerHTML += `<div>`
-              await typeAll(results, "🙏 Thank you for visiting my Portforlio! 🚀");
+              await typeAll(results, "🙏 Thank you for visiting my Portfolio! 🚀");
               results.innerHTML += `</div>`
               await sleep(600);
               window.open("https://marquisthecoder.us/portforlio", "_blank");
