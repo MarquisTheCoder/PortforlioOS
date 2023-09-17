@@ -91,7 +91,7 @@
               await typeAll(results, "🙏 Thank you for visiting my Portfolio! 🚀");
               results.innerHTML += `</div>`
               await sleep(600);
-              window.open("https://marquisthecoder.us/portforlio", "_blank");
+              window.open("https://marquisthecoder.us/portfolio", "_blank");
             },
           },
           github: {
