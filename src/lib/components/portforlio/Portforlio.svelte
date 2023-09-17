@@ -29,7 +29,9 @@
               
               My passion? Weaving productivity and user delight into every line of code. Together, we'll turn your digital dreams into reality. Let's embark on this exciting journey! 💡💻✨</p>
               <div class="flex flex-row gap-4 justify-center pb-4 w-full">
-            <img src="/img/coffee.svg" class="mb-8 opacity-60 invert" alt="buy marquis a coffee"/>
+             <a href="https://www.buymeacoffee.com/marquisthecoder" target="_blank">
+              <img src="/img/coffee.svg" class="mb-8 opacity-60 invert transition-transform ease-in-out hover:animate-bounce" alt="buy marquis a coffee"/>
+            </a>
           </div>
           </div>
 
