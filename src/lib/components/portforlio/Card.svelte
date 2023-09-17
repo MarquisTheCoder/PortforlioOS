@@ -10,8 +10,7 @@
 </script>
 
 
-<div class="w-[20rem] h-[20rem] rounded-lg
-border-[1px] border-purple-500/50 border-spacing-6 bg-black/60 backdrop-blur-md m-0 shrink-0">
+<div class="w-[20rem] h-[20rem] rounded-lg bg-black/60 backdrop-blur-md m-0 shrink-0">
     <div class="h-[50%] w-full overflow-hidden relative">
         <img src="{image}" alt="project_image" class="absolute top-0 left-0 h-full rounded-t-lg shrink-0"
         style="height: auto; width: 150%;">
