@@ -8,8 +8,8 @@
         "stack": ["java", "spring","bootstrap", "jquery", "mysql"]
     },
     {
-        "name": "Cryptomami Group",
-        "description": "",
+        "name": "Movie Project",
+        "description": "Developed a movie streaming website using JS, HTML, CSS, & jQuery. Enable users to watch films online with interactive UI. 🍿🖥️ #WebDev #MovieStreaming",
         "url": "none",
         "image":"/img/projects/movieproject.png",
         "live": false,
@@ -17,7 +17,7 @@
     },
     {
         "name": "Venued",
-        "description": "",
+        "description": "A user-connecting website where members share venue tips. JS, HTML, CSS, & jQuery power a vibrant community. 🏟️💡 #WebDev #CommunityBuilding",
         "url": "none",
         "image":"/img/projects/venued.png",
         "live": false,
@@ -25,10 +25,10 @@
     },
     {
         "name": "Able Log Trucking",
-        "description": "",
+        "description": "Website for a local veteran-owned trucking company 🚚🇺🇸. Showcasing company services and honor their dedication. #LocalBusiness #VeteranOwned",
         "url": "none",
         "image":"/img/projects/ablelogtrucking.png",
-        "live": false,
+        "live": true,
         "stack": ["java", "spring","bootstrap", "jquery"]
     },
     {
@@ -36,7 +36,7 @@
         "description": "",
         "url": "none",
         "image":"/img/projects/weathmap.png",
-        "live": false,
+        "live": true,
         "stack": ["node","javascript","jquery"]
     },
     {
@@ -44,7 +44,7 @@
         "description": "",
         "url": "none",
         "image":"/img/projects/cobblestone.jpg",
-        "live": false,
+        "live": true,
         "stack": ["svelte", "javascript", "tailwind"]
     }
     
