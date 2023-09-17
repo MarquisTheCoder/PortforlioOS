@@ -13,7 +13,7 @@
         "url": "none",
         "image":"/img/projects/movieproject.png",
         "live": false,
-        "stack": []
+        "stack": ["javascript","jquery"]
     },
     {
         "name": "Venued",
@@ -33,7 +33,7 @@
     },
     {
         "name": "ExpressJS 3D Weathermap",
-        "description": "",
+        "description": "Crafted an immersive 3D weather map using Express.js 🌦️🌍. This dynamic web app delivers real-time weather data in a stunning visual experience. #ExpressJS #WeatherMap",
         "url": "none",
         "image":"/img/projects/weathmap.png",
         "live": true,
@@ -41,7 +41,7 @@
     },
     {
         "name": "Cobblestone Library",
-        "description": "",
+        "description": "Built a user-friendly library website using SvelteKit, Tailwind CSS, and JavaScript, promoting freedom of information 📚🔍. Access resources easily! #LibraryWebsite #OpenAccess",
         "url": "none",
         "image":"/img/projects/cobblestone.jpg",
         "live": true,

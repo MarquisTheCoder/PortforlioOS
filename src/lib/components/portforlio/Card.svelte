@@ -12,7 +12,7 @@
 <div class="w-[20rem] h-[20rem] rounded-lg bg-black/60 backdrop-blur-md m-0 shrink-0 relative">
     <div class="absolute top-5 right-5 z-20 text-white active-or-not">
         {#if active == true}
-            <a href="{link}">
+            <a href="{link}" target="_blank">
                 <p class="z-20 px-3 py-1 bg-green-500 rounded-md">Live</p>
             </a>
         {:else}
@@ -30,7 +30,7 @@
         {description}
     </div>
     <div class="h-[15%] w-full bg-black rounded-b-lg">
-        <ul class="flex overflow-y-hidden overflow-x-scroll flex-row gap-4 justify-start px-3 py-1 w-full h-full no-scrollbar">
+        <ul class="flex overflow-y-hidden overflow-x-scroll flex-row gap-4 justify-start items-center px-3 py-1 w-full h-full no-scrollbar">
             {#each stack as tool}
                 <li><StackIcons name={tool}/></li>
             {/each}
