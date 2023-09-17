@@ -25,7 +25,7 @@
                md:flex-wrap items-center md:justify-center">
 
               {#each projects as project}
-                <Card image={project.image} name={project.name} description={project.description} stack={project.stack} link={project.url}/>
+                <Card image={project.image} name={project.name} description={project.description} stack={project.stack} link={project.url} active={project.live}/>
               {/each}
                  
               </div>
