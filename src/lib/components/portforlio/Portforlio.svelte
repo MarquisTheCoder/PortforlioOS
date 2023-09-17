@@ -13,7 +13,7 @@
         backdrop-blur-md bg-gradient-to-b from-black/60 to-black/40">
 
           
-          <div id="profile-icon" role="contentinfo" class="rounded-full w-[8rem] h-[8rem] overflow-hidden relative shrink-0">
+          <div id="profile-icon" role="contentinfo" class="rounded-full w-[8rem] h-[8rem] overflow-hidden relative shrink-0 mt-10">
             <img src="/img/profilepic_purple.png" alt="profile" class="absolute top-0 left-0 hover:w-[27rem] opacity-80 shrink-0"> 
           </div> 
           
@@ -21,7 +21,7 @@
             <h1 class="text-4xl font-bold text-[#B161B7]/60 font-fira">MarquisTheCoder</h1> 
           </div>
 
-          <div class="flex flex-col gap-4 items-center px-4 w-full text-center md:px-36">
+          <div class="flex flex-col gap-4 items-center px-4 w-full text-center md:px-52">
             <h2 class="font-bold font-fira text-white/70">About me</h2>
             <p class="pb-4 font-thin font-fira">🚀 Elevate your web projects with a web development virtuoso! 🎨 As a professional full-stack developer, I'm the maestro behind stunning web applications. My specialties? SvelteKit and Node.js - the dynamic duo for crafting exceptional digital experiences. 🌟
 
@@ -29,8 +29,8 @@
               
               My passion? Weaving productivity and user delight into every line of code. Together, we'll turn your digital dreams into reality. Let's embark on this exciting journey! 💡💻✨</p>
               <div class="flex flex-row gap-4 justify-center pb-4 w-full">
-             <a href="https://www.buymeacoffee.com/marquisthecoder" target="_blank">
-              <img src="/img/coffee.svg" class="my-10 opacity-60 invert transition-transform ease-in-out hover:animate-bounce" alt="buy marquis a coffee"/>
+             <a href="https://www.buymeacoffee.com/marquisthecoder" class="my-10" target="_blank">
+              <img src="/img/coffee.svg" class="opacity-60 invert transition-transform ease-in-out hover:animate-bounce" alt="buy marquis a coffee"/>
             </a>
           </div>
           </div>

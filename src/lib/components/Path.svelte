@@ -91,7 +91,7 @@
               await typeAll(results, "🙏 Thank you for visiting my Portforlio! 🚀");
               results.innerHTML += `</div>`
               await sleep(600);
-              window.open("https://marquis-the-coder.onrender.com/", "_blank");
+              window.open("/portforlio", "_blank");
             },
           },
           github: {
@@ -127,9 +127,7 @@
           input.value = ""
         }
       });
-
-    };
-    
+    };  
   </script>
 </div>
 
