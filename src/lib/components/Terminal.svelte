@@ -22,7 +22,7 @@ windowClasses={'md:left-[300px] w-[30rem] h-[20rem] md:w-[40rem] md:h-[30rem]'}>
       <p class="px-3 text-2xl font-thin font-fira">
         <!-- svelte-ignore a11y-invalid-attribute -->
         Vist plain portforlio 
-        <a href="#" class="text-[#acade5]"> -> here</a>
+        <a href="/portforlio" class="text-[#acade5]"> -> here</a>
       </p>
     </div>
     
