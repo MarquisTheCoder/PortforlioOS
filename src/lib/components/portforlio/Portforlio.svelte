@@ -6,8 +6,8 @@
     import projects from "$lib/database/projects.json";
 </script>
 
-<Window windowTitle={'Portforlio'} top={0} left={0} windowClasses={'portforlio  w-[100vw] md:w-[100vw] min-h-[40vh] h-[90vh] md:h-[95vh] bg-black/70'}>
-    <div class="flex flex-col flex-1 w-full h-full">
+<Window windowTitle={'Portforlio'} top={0} left={0} windowClasses={'portforlio  w-[100vw] h-[100vh] min-h-[100vh] bg-black/70'}>
+    <div class="flex flex-col w-full h-full">
         <div class="w-full h-fit min-h-[5rem] flex flex-col items-center justify-center 
         backdrop-blur-md bg-gradient-to-b from-black/60 to-black/40">
           <div id="profile-icon" role="contentinfo" class="rounded-full w-[8rem] h-[8rem] mt-4 overflow-hidden relative shrink-0">
@@ -16,13 +16,21 @@
           <div class="py-4">
             <h1 class="text-4xl font-bold text-[#B161B7]/60 font-fira">MarquisTheCoder</h1> 
           </div>
-          <div class="flex flex-row gap-4 justify-center w-full">
-            
-          </div>  
-           
+          <div class="flex flex-col gap-4 items-center px-4 w-full text-center md:px-36">
+            <h2 class="font-bold font-fira text-white/70">About me</h2>
+            <p class="pb-4 font-thin font-fira">🚀 Elevate your web projects with a web development virtuoso! 🎨 As a professional full-stack developer, I'm the maestro behind stunning web applications. My specialties? SvelteKit and Node.js - the dynamic duo for crafting exceptional digital experiences. 🌟
+
+              In my arsenal, I wield powerful libraries like Tailwind CSS, Supabase, and Astro. They're not just tools; they're the secret sauce that makes your apps sing! 🎶
+              
+              My passion? Weaving productivity and user delight into every line of code. Together, we'll turn your digital dreams into reality. Let's embark on this exciting journey! 💡💻✨</p>
+          </div>
+          <div class="flex flex-row gap-4 justify-center pb-4 w-full">
+            <img src="/img/coffee.svg" class="opacity-60 invert"/>
+          </div>
         </div>
+        
          <!--content  --> 
-          <div class="flex overflow-y-scroll flex-col flex-1 w-full no-scrollbar"> 
+          <div class="flex overflow-y-scroll flex-col w-full shrink-0 h-fit no-scrollbar"> 
               <div id="project-header" class="flex flex-row justify-center pt-8 pb-10 w-full">
                 <h2 class="text-4xl font-bold text-white/60 font-fira">Projects</h2>
               </div> 
