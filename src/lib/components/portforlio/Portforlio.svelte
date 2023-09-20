@@ -35,16 +35,16 @@
               </div>
               <div class="flex flex-row gap-5 mb-8 invert">
                 <a src="https://github.com/MarquisTheCoder" target="_blank">
-                  <img src="/img/github.png" class="h-10"/>
+                  <img src="/img/github.png" class="z-50 h-10 hover:cursor-pointer"/>
                 </a>
                 <a src="" target="">
-                  <img src="/img/linkedin.png" class="h-10"/>
+                  <img src="/img/linkedin.png" class="z-50 h-10 hover:cursor-pointer"/>
                 </a>
                 <a src="tel:7046351576" >
-                  <img src="/img/phone.png" class="h-10"/>
+                  <img src="/img/phone.png" class="z-50 h-10 hover:cursor-pointer"/>
                 </a>
-                <a src="mailto:deshawn.m.williams01@gmail.com" target="">
-                  <img src="/img/emai.png" class="h-10"/>
+                <a src="mailto:deshawn.m.williams01@gmail.com">
+                  <img src="/img/emai.png" class="z-50 h-10 hover:cursor-pointer"/>
                 </a>
               </div>
 
