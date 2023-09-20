@@ -18,21 +18,36 @@
           </div> 
           
           <div class="py-4">
-            <h1 class="text-4xl font-bold text-[#B161B7]/90 font-fira">MarquisTheCoder</h1> 
+            <h1 class="text-4xl font-bold text-[#B161B7] font-fira">MarquisTheCoder</h1> 
           </div>
 
           <div class="flex flex-col gap-4 items-center px-4 w-full text-center md:px-52">
-            <h2 class="font-bold font-fira text-white/90">About me</h2>
-            <p class="pb-4 font-thin font-fira">🚀 Elevate your web projects with a web development virtuoso! 🎨 As a professional full-stack developer, I'm the maestro behind stunning web applications. My specialties? SvelteKit and Node.js - the dynamic duo for crafting exceptional digital experiences. 🌟
+            <h2 class="font-bold text-white font-fira">About me</h2>
+                <p class="pb-4 font-fira">🚀 Elevate your web projects with a web development virtuoso! 🎨 As a professional full-stack developer, I'm the maestro behind stunning web applications. My specialties? SvelteKit and Node.js - the dynamic duo for crafting exceptional digital experiences. 🌟
 
               In my arsenal, I wield powerful libraries like Tailwind CSS, Supabase, and Astro. They're not just tools; they're the secret sauce that makes your apps sing! 🎶
               
               My passion? Weaving productivity and user delight into every line of code. Together, we'll turn your digital dreams into reality. Let's embark on this exciting journey! 💡💻✨</p>
               <div class="flex flex-row gap-4 justify-center pb-4 w-full">
-             <a href="https://www.buymeacoffee.com/marquisthecoder" class="my-10" target="_blank">
-              <img src="/img/coffee.svg" class="opacity-90 invert transition-transform ease-in-out hover:animate-bounce" alt="buy marquis a coffee"/>
-            </a>
-          </div>
+                <a href="https://www.buymeacoffee.com/marquisthecoder" class="mt-10" target="_blank">
+                  <img src="/img/coffee.svg" class="invert transition-transform ease-in-out hover:animate-bounce" alt="buy marquis a coffee"/>
+                </a>
+              </div>
+              <div class="flex flex-row gap-5 mb-8 invert">
+                <a src="https://github.com/MarquisTheCoder" target="_blank">
+                  <img src="/img/github.png" class="h-10"/>
+                </a>
+                <a src="" target="">
+                  <img src="/img/linkedin.png" class="h-10"/>
+                </a>
+                <a src="tel:7046351576" >
+                  <img src="/img/phone.png" class="h-10"/>
+                </a>
+                <a src="mailto:deshawn.m.williams01@gmail.com" target="">
+                  <img src="/img/emai.png" class="h-10"/>
+                </a>
+              </div>
+
           </div>
 
           
@@ -42,7 +57,7 @@
          <!--content  --> 
         <div class="flex flex-col w-full shrink-0 overflow-y-scroll h-[30rem] no-scrollbar"> 
             <div id="project-header" class="flex flex-row justify-center pt-8 pb-10 w-full">
-              <h2 class="text-4xl font-bold text-white/60 font-fira">Projects</h2>
+              <h2 class="text-4xl font-bold text-white/80 font-fira">Projects</h2>
             </div> 
             <div class="px-4 w-full h-[10rem]
               flex flex-col md:flex-row gap-8 no-scrollbar 
