@@ -59,12 +59,13 @@
             <div id="project-header" class="flex flex-row justify-center pt-8 pb-10 w-full">
               <h2 class="text-4xl font-bold text-white/80 font-fira">Projects</h2>
             </div> 
-            <div class="px-4 w-full h-[10rem]
+            <div class="px-4 md:px-20 w-full h-[10rem]
               flex flex-col md:flex-row gap-8 no-scrollbar 
               md:flex-wrap items-center md:justify-center">
 
             {#each projects as project}
               <Card image={project.image} name={project.name} description={project.description} stack={project.stack} link={project.url} active={project.live}/>
+
             {/each}
                 
             </div>
