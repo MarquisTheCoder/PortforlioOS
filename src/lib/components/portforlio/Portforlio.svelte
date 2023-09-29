@@ -37,7 +37,7 @@
                 <a src="https://github.com/MarquisTheCoder" target="_blank">
                   <img src="/img/github.png" class="z-50 h-10 hover:cursor-pointer"/>
                 </a>
-                <a src="" target="">
+                <a src="https://www.linkedin.com/in/marquis-w/" target="_blank">
                   <img src="/img/linkedin.png" class="z-50 h-10 hover:cursor-pointer"/>
                 </a>
                 <a src="tel:7046351576" >
