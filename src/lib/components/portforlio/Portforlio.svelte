@@ -1,9 +1,9 @@
 
 
 <script>
+    import projects from "$lib/database/projects.json";
     import Window from "../Window.svelte";
     import Card from "./Card.svelte";
-    import projects from "$lib/database/projects.json";
 </script>
 
 <Window windowTitle={'Portforlio'} top={0} left={0} windowClasses={'portforlio  w-[100vw] h-[100vh] min-h-[100vh] bg-black/70'}>
@@ -34,16 +34,16 @@
                 </a>
               </div>
               <div class="flex flex-row gap-5 mb-8 invert">
-                <a src="https://github.com/MarquisTheCoder" target="_blank">
+                <a href="https://github.com/MarquisTheCoder" target="_blank">
                   <img src="/img/github.png" class="z-50 h-10 hover:cursor-pointer"/>
                 </a>
-                <a src="https://www.linkedin.com/in/marquis-w/" target="_blank">
+                <a href="https://www.linkedin.com/in/marquis-w/" target="_blank">
                   <img src="/img/linkedin.png" class="z-50 h-10 hover:cursor-pointer"/>
                 </a>
-                <a src="tel:7046351576" >
+                <a href="tel:7046351576" >
                   <img src="/img/phone.png" class="z-50 h-10 hover:cursor-pointer"/>
                 </a>
-                <a src="mailto:deshawn.m.williams01@gmail.com">
+                <a href="mailto:deshawn.m.williams01@gmail.com">
                   <img src="/img/emai.png" class="z-50 h-10 hover:cursor-pointer"/>
                 </a>
               </div>
